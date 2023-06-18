@@ -9,10 +9,6 @@ are so many weird tables below.
 ]]
 local S = minetest.get_translator(minetest.get_current_modname())
 
-if not minetest.settings:get_bool("breakers") then
-    return
-end
-
 -- For after_place_node
 local function setup_placer(pos)
 	-- Set formspec and inventory
